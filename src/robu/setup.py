@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
             'wallfollower = robu.ex10_wallfollower:main',
             'mypublisher = robu.publisher_member_function:main',
-            'mysubscriber = robu.subscriber_member_function:main'
+            'mysubscriber = robu.subscriber_member_function:main',
+            'myparam = robu.ex11_parameter:main'
+
         ],
     },
 )
